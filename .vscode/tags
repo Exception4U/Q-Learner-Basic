@@ -1,0 +1,46 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Learner.py	../Learner.py	1;"	kind:file	line:1
+Q	../Learner.py	/^Q = {}$/;"	kind:variable	line:9
+Width	../World.py	/^Width = 100$/;"	kind:variable	line:8
+World.py	../World.py	1;"	kind:file	line:1
+__author__	../Learner.py	/^__author__ = 'philippe'$/;"	kind:variable	line:1
+__author__	../World.py	/^__author__ = 'philippe'$/;"	kind:variable	line:1
+actions	../Learner.py	/^actions = World.actions$/;"	kind:variable	line:7
+actions	../World.py	/^actions = ["up", "down", "left", "right"]$/;"	kind:variable	line:10
+board	../World.py	/^board = Canvas(master, width=x*Width, height=y*Width)$/;"	kind:variable	line:12
+call_down	../World.py	/^def call_down(event):$/;"	kind:function	line:104
+call_left	../World.py	/^def call_left(event):$/;"	kind:function	line:108
+call_right	../World.py	/^def call_right(event):$/;"	kind:function	line:112
+call_up	../World.py	/^def call_up(event):$/;"	kind:function	line:100
+cell_score_max	../World.py	/^cell_score_max = 0.2$/;"	kind:variable	line:7
+cell_score_min	../World.py	/^cell_score_min = -0.2$/;"	kind:variable	line:6
+cell_scores	../World.py	/^cell_scores = {}$/;"	kind:variable	line:20
+create_triangle	../World.py	/^def create_triangle(i, j, action):$/;"	kind:function	line:23
+discount	../Learner.py	/^discount = 0.3$/;"	kind:variable	line:6
+do_action	../Learner.py	/^def do_action(action):$/;"	kind:function	line:27
+has_restarted	../World.py	/^def has_restarted():$/;"	kind:function	line:123
+inc_Q	../Learner.py	/^def inc_Q(s, a, alpha, inc):$/;"	kind:function	line:55
+master	../World.py	/^master = Tk()$/;"	kind:variable	line:3
+max_Q	../Learner.py	/^def max_Q(s):$/;"	kind:function	line:45
+me	../World.py	/^me = board.create_rectangle(player[0]*Width+Width*2\/10, player[1]*Width+Width*2\/10,$/;"	kind:variable	line:131
+player	../World.py	/^player = (0, y-1)$/;"	kind:variable	line:13
+render_grid	../World.py	/^def render_grid():$/;"	kind:function	line:46
+restart	../World.py	/^restart = False$/;"	kind:variable	line:15
+restart_game	../World.py	/^def restart_game():$/;"	kind:function	line:116
+run	../Learner.py	/^def run():$/;"	kind:function	line:61
+score	../World.py	/^score = 1$/;"	kind:variable	line:14
+set_cell_score	../World.py	/^def set_cell_score(state, action, val):$/;"	kind:function	line:63
+specials	../World.py	/^specials = [(4, 1, "red", -1), (4, 0, "green", 1)]$/;"	kind:variable	line:19
+start_game	../World.py	/^def start_game():$/;"	kind:function	line:137
+states	../Learner.py	/^states = []$/;"	kind:variable	line:8
+t	../Learner.py	/^t = threading.Thread(target=run)$/;"	kind:variable	line:90
+temp	../Learner.py	/^    temp = {}$/;"	kind:variable	line:15
+triangle_size	../World.py	/^triangle_size = 0.1$/;"	kind:variable	line:5
+try_move	../World.py	/^def try_move(dx, dy):$/;"	kind:function	line:77
+walk_reward	../World.py	/^walk_reward = -0.04$/;"	kind:variable	line:16
+walls	../World.py	/^walls = [(1, 1), (1, 2), (2, 1), (2, 2)]$/;"	kind:variable	line:18
