@@ -5,7 +5,7 @@ master = Tk()
 triangle_size = 0.1
 cell_score_min = -0.2
 cell_score_max = 0.2
-Width = 100
+Width = 80
 (x, y) = (10, 10)
 actions = ["up", "down", "left", "right"]
 
